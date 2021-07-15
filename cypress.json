@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://www.amazon.com",
+    "viewportHeight": 900,
+    "viewportWidth": 1400,
+    "defaultCommandTimeout": 10000,
+    "testFiles": "**/*.{feature, features}",
+    "video": true,
+    "videosFolder": "../reports/cypress/e2e/videos",
+    "screenshotsFolder": "../reports/cypress/e2e/screenshots"
+}

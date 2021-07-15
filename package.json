@@ -1,0 +1,24 @@
+{
+  "name": "cypress_tutorial",
+  "version": "1.0.0",
+  "description": "An introductory class to cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ademola Bhadmus",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-cucumber-preprocessor": "^4.1.4"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "./reports/cypress/e2e/cucumber-json/",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
