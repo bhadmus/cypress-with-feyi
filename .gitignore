@@ -1,0 +1,9 @@
+# reporting files and folder
+reports/
+
+# Dependencies
+.dist/
+node_modules/
+
+# IDE genrated files
+.idea/
